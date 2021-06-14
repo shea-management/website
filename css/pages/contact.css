@@ -1,0 +1,87 @@
+a {
+    color: var(--tertiary);
+}
+
+/* -- MAIN -- */
+.main {
+    width: 100%;
+    min-height: 100%;
+    padding-top: 100px;
+
+    background: url(../../content/images/brand/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section h1 {
+    color: var(--primary);
+}
+
+/* -- CONTACT CARD -- */
+.card.vertical {
+    background-color: var(--primary);
+    width: 200px;
+    height: 100%;
+
+    flex-grow: unset;
+    margin: 20px;
+}
+.card.vertical > .card-top > img {
+    border-radius: 0px;
+    width: 100px;
+    margin: 30px;
+    margin-top: 60px;
+}
+.card.vertical p, .card.vertical h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--tertiary);
+}
+.card.vertical .container {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* -- FAMILY CARD -- */
+.card.family {
+    background-color: var(--primary);
+    height: 100%;
+
+    margin: 20px;
+    margin-left: 0px;
+    padding: 20px;
+
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+.card.family > h1 {
+    color: var(--tertiary);
+}
+.card.family > .card {
+    min-height: 60px;
+    margin: 0px;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
+.card.family > .card:hover {
+    background-color: var(--tertiary50);
+}
+.card.family > .card > .card-left {
+    width: 30%;
+    margin: 0px;
+}
+.card.family > .card > .card-left img {
+    margin: 0px;
+}
+.card.family > .card > .card-right {
+    align-items: flex-start;
+    width: 70%;
+}

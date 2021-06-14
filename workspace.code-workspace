@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../mmbookkeeping"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "shea management website",
+		"liveServer.settings.port": 5501
+	}
+}
