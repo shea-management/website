@@ -25,6 +25,9 @@
 
     max-width: 600px;
 }
+.header.responsive > img {
+    margin: 50px;
+}
 .header-container > p, .header-container > h1 {
     text-align: right;
     margin: 10px 0px;
